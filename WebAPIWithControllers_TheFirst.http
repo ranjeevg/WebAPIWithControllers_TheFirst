@@ -1,0 +1,11 @@
+@WebAPIWithControllers_TheFirst_HostAddress = http://localhost:5223
+
+GET {{WebAPIWithControllers_TheFirst_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{WebAPIWithControllers_TheFirst_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
